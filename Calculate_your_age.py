@@ -40,21 +40,21 @@ print(f"%s ==> Choose a Number To Print The Unit%s"  % (fg(yw), attr(0)))
 number = input(": ")
 
 if number == '1':
-    print(f"your lived For: %s {month}   %s Month."   % (fg(gr), attr(0))) 
+    print(f"you lived For: %s {month}   %s Month."   % (fg(gr), attr(0))) 
 elif number == '2':
-    print(f"your lived For: %s {weeks}   %s Week."    % (fg(gr), attr(0))) 
+    print(f"you lived For: %s {weeks}   %s Week."    % (fg(gr), attr(0))) 
 elif number == '3':
-    print(f"your lived For: %s {days}    %S Day."     % (fg(gr), attr(0)))
+    print(f"you lived For: %s {days}    %S Day."     % (fg(gr), attr(0)))
 elif number == '4':
-    print(f"your lived For: %s {hours}   %s Hour."    % (fg(gr), attr(0)))  
+    print(f"you lived For: %s {hours}   %s Hour."    % (fg(gr), attr(0)))  
 elif number == '5':
-    print(f"your lived For: %s {minutes} %s Minutes." % (fg(gr), attr(0)))
+    print(f"you lived For: %s {minutes} %s Minutes." % (fg(gr), attr(0)))
 elif number == '6':
-    print(f"your lived For: %s {seconds} %s Second."  % (fg(gr), attr(0)))  
+    print(f"you lived For: %s {seconds} %s Second."  % (fg(gr), attr(0)))  
 elif number == '7':
-    print(f"your lived For: %s {month}   %s Month."   % (fg(gr), attr(0)))
-    print(f"your lived For: %s {weeks}   %s Week."    % (fg(gr), attr(0)))
-    print(f"your lived For: %s {days}    %s Day."     % (fg(gr), attr(0)))
-    print(f"your lived For: %s {hours}   %s Hours."   % (fg(gr), attr(0)))
-    print(f"your lived For: %s {minutes} %s Minutes." % (fg(gr), attr(0)))
-    print(f"your lived For: %s {seconds} %s Second."  % (fg(gr), attr(0)))
+    print(f"you lived For: %s {month}        %s Month."   % (fg(gr), attr(0)))
+    print(f"you lived For: %s {weeks}        %s Week."    % (fg(gr), attr(0)))
+    print(f"you lived For: %s {days}     %s Day."     % (fg(gr), attr(0)))
+    print(f"you lived For: %s {hours}    %s Hours."   % (fg(gr), attr(0)))
+    print(f"you lived For: %s {minutes}   %s Minutes." % (fg(gr), attr(0)))
+    print(f"you lived For: %s {seconds} %s Second."  % (fg(gr), attr(0)))
