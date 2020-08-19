@@ -3,7 +3,7 @@
 from colored import fg, attr
 ###################################################################
 ###################################################################
-#                       Static Variables & Colors
+#                       Fixed Variables & Colors
 author = "Abdallah Mamdouh"
 star   = "*" * 30
 
