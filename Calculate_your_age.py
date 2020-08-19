@@ -7,8 +7,7 @@ from colored import fg, attr
 author = "Abdallah Mamdouh"
 star   = "*" * 30
 
-bk = 0; 
-rd = 1; gr = 2; yw = 3; bu = 20; cy = 6; w = 15; 
+bk = 0; rd = 1; gr = 2; yw = 3; bu = 20; cy = 6; w = 15; 
 ###################################################################
 
 print(f"%s {star} %s".center(40)  % (fg(rd), attr(0)))
