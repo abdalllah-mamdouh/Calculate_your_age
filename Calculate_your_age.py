@@ -1,7 +1,5 @@
 ###################################################################
 #                        Import Module
-from termcolor import *
-from time import sleep
 from colored import fg, attr
 ###################################################################
 ###################################################################
@@ -17,7 +15,7 @@ print(f"Scripting By %s{author}%s".center(40) % (fg(rd), attr(0)))
 print(f"%s {star} %s".center(40)  % (fg(rd), attr(0)))
 
 
-age = int(input("what\'s your age ?"))
+age = int(input("what\'s your age ? => "))
 
 month   = age * 12
 weeks   = month * 4
@@ -37,9 +35,9 @@ print(
     [7] All
     '''
 )
-print(f"%s ==> select Number for print util%s"  % (fg(yw), attr(0)))
+print(f"%s ==> Choose a Number To Print The Unit%s"  % (fg(yw), attr(0)))
 
-number = input()
+number = input(": ")
 
 if number == '1':
     print(f"your lived For: %s {month}   %s Month."   % (fg(gr), attr(0))) 
