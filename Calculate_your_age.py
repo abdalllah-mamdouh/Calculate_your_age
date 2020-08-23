@@ -13,6 +13,7 @@ bk = 0; rd = 1; gr = 2; yw = 3; bu = 20; cy = 6; w = 15;
 print(f"%s {star} %s".center(40)  % (fg(rd), attr(0)))
 print(f"Scripting By %s{author}%s".center(40) % (fg(rd), attr(0)))
 print(f"%s {star} %s".center(40)  % (fg(rd), attr(0)))
+print(f"%s {star} %s".center(40)  % (fg(rd), attr(0)))
 
 
 age = int(input("what\'s your age ? => "))
