@@ -20,9 +20,9 @@ age = int(input("what\'s your age ? => "))
 
 month   = age * 12
 weeks   = month * 4
-days    = weeks * 365
+days    = age * 365
 hours   = days * 24
-minutes = days * 60
+minutes = hours * 60
 seconds = minutes * 60
 
 print(
@@ -53,9 +53,9 @@ elif number == '5':
 elif number == '6':
     print(f"you lived For: %s {seconds} %s Second."  % (fg(gr), attr(0)))  
 elif number == '7':
-    print(f"you lived For: %s {month}        %s Month."   % (fg(gr), attr(0)))
-    print(f"you lived For: %s {weeks}        %s Week."    % (fg(gr), attr(0)))
-    print(f"you lived For: %s {days}     %s Day."     % (fg(gr), attr(0)))
-    print(f"you lived For: %s {hours}    %s Hours."   % (fg(gr), attr(0)))
-    print(f"you lived For: %s {minutes}   %s Minutes." % (fg(gr), attr(0)))
-    print(f"you lived For: %s {seconds} %s Second."  % (fg(gr), attr(0)))
+    print(f"you lived For: %s {month}         %s Month."   % (fg(gr), attr(0)))
+    print(f"you lived For: %s {weeks}         %s Week."    % (fg(gr), attr(0)))
+    print(f"you lived For: %s {days}        %s Day."     % (fg(gr), attr(0)))
+    print(f"you lived For: %s {hours}      %s Hours."   % (fg(gr), attr(0)))
+    print(f"you lived For: %s {minutes}     %s Minutes." % (fg(gr), attr(0)))
+    print(f"you lived For: %s {seconds}   %s Second."  % (fg(gr), attr(0)))
