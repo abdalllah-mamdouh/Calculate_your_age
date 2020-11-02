@@ -1,4 +1,4 @@
-#Hi
+1
 ###################################################################
 #                        Import Module
 from colored import fg, attr
