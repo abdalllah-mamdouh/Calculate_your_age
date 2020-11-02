@@ -1,4 +1,4 @@
-# Test
+# V: 1.0
 ###################################################################
 #                        Import Module
 from colored import fg, attr
